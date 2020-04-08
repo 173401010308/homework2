@@ -26,8 +26,7 @@ int main()
 		if(max<p)
 			max=p;
 	}
-    if(max<0)
-        max=0;
+
 	printf("最大子段和为%d\n",max);
 	return 0;
 }
